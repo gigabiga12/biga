@@ -11,7 +11,14 @@ namespace test
             Console.WriteLine("Adj meg két számot ");
            int B = Convert.ToInt32(Console.ReadLine());
 
-         
+            if (A > B)
+            {
+                Console.WriteLine(A);
+            }
+            else
+            {
+                Console.WriteLine(B);
+            }
         }
     }
 }
