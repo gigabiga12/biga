@@ -6,7 +6,12 @@ namespace test
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Adj meg két számot ");
+           int A = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Adj meg két számot ");
+           int B = Convert.ToInt32(Console.ReadLine());
 
+         
         }
     }
 }
